@@ -30,7 +30,7 @@
     width: 120px;
     font-size: 17px;
 }
-@media screen and (min-width=900px) {
+@media screen and (max-width:900px) {
     .formdiv{
         width: 350px;
         height: 250px;
@@ -54,9 +54,10 @@
         width: 500px;
     height: 400px;
     margin: auto;
+    font-size: 14px;
     }
 }
-@media screen and (min-width=500px) {
+@media screen and (max-width:500px) {
     .formdiv{
         width: 350px;
         height: 250px;
@@ -80,6 +81,7 @@
         width: 400px;
     height: 300px;
     margin: auto;
+    font-size: 12px;
     }
 }
 
